@@ -21,7 +21,8 @@ fn main() {
     for entry in fs::read_dir(".").unwrap(){
         let dir = entry.unwrap().path().into_os_string().into_string().unwrap();
         if dir.as_str().to_lowercase().to_string() == format!("{}{}",PREFIX,f_or_f.as_str().to_lowercase()) {
-            a = true
+            a = true;
+            break;
         }
     }
     if a{print!("{}",f_or_f)}else{print!(".")}
