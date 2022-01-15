@@ -29,5 +29,17 @@ PS C:\> cd (lz epstein)
 PS C:\>
 ```
 
+Now supports other directories tooo
+```
+PS C:\Users\PC> lz c:/users
+c:/users
+PS C:\Users\PC> cd (lz c:/users)
+PS C:\users> lz c:/hackers
+.
+PS C:\users> cd (lz c:/hackers)
+PS C:\users>
+```
+
+
 Enjoy.  
 [Go here if you want to here a badjoke.](https://kelvindoe22.github.io/hahanotfunny/)
