@@ -49,4 +49,4 @@ PS C:\Users\PC\documents\rust_projects\lz> lz src/main.rs -e code
 This command will open vs code if its installed and the destination is found.  
 
 Enjoy.  
-[Go here if you want to here a badjoke.](https://kelvindoe22.github.io/hahanotfunny/)
+[Go here if you want to hear a badjoke.](https://kelvindoe22.github.io/hahanotfunny/)
