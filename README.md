@@ -40,13 +40,38 @@ PS C:\users> cd (lz c:/hackers)
 PS C:\users>
 ```
   
-v3  
+## v3  
 Now you can execute command when the directory or file is found
 ```
 PS C:\Users\PC\documents\rust_projects\lz> lz src/main.rs -e code
 ```
 
-This command will open vs code if its installed and the destination is found.  
+This command will open vs code if its installed and the destination is found.
+
+
+## v4
+Now you can search for files that start with, end with or contain certain characters
+or a character.
+```
+PS C:\Users\PC\documents\rust_projects\lz> lz src/m -sw
+```
+This command will search for files/folders in the src folder that start with m and lists them.    
+Returns a dot if no folders are found.
+```
+PS C:\Users\PC\documents\rust_projects\lz> lz src/m -ew
+```
+This command will search for files/folders in the src folder that end with m and lists them.  
+Returns a dot if no folders are found.
+```
+PS C:\Users\PC\documents\rust_projects\lz> lz src/m -c
+```
+This command will search for files/folders in the src folder that contain m and lists them.  
+Returns a dot if no folders are found.
+
+
+
+
+
 
 Enjoy.  
 [Go here if you want to hear a badjoke.](https://kelvindoe22.github.io/hahanotfunny/)
