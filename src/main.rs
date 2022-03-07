@@ -33,7 +33,7 @@ fn main() {
     let ew = String::from("-ew");
     let c = String::from("-c");
     let e = String::from("-e");
-    //-sw (starts with)
+
 
     if lib::contains(&exe, &sw){
         lib::find_matching_files_sw(dir, item, Cases::StartsWith)
@@ -68,8 +68,7 @@ fn main() {
         }
     }
 
-}   
-    // -e case here
+}
     
 fn find(folder: &str, f_or_f: &str) -> bool {
     let mut a = false;

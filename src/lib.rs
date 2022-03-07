@@ -9,9 +9,7 @@ pub enum Cases {
 
 pub fn find_matching_files_sw(folder: &str, f_or_f: &str, case: Cases) {
     let mut got_one = false;
-    let folder = folder.to_lowercase();
-    let folder = &*folder;
-    let iter = fs::read_dir(folder);
+    let iter = fs::read_dir(&*(folder.to_lowercase()));
     if iter.is_err(){
         std::process::exit(0);
     }
